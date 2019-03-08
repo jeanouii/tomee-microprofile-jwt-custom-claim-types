@@ -27,7 +27,6 @@ import org.jboss.shrinkwrap.api.spec.WebArchive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import javax.ws.rs.core.Response;
 import java.net.URL;
 
 import static java.util.Collections.singletonList;

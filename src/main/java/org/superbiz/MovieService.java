@@ -42,13 +42,13 @@ public class MovieService {
 
     @Inject
     @Claim("email")
-    private String email;
+    private Email email;
 
     @GET
     @Path("notifications")
     @RolesAllowed({"manager", "user"})
     public String getNotificationsAddress() {
-        return email;
+        return email.getAddress();
     }
 
     @GET
